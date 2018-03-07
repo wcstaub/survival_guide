@@ -1,3 +1,4 @@
 class Subject < ApplicationRecord
-	has_and_belongs_to_many :resources
+	has_many :subject_resources
+	has_many :resources, through: :subject_resources
 end

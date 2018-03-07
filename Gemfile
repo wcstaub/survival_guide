@@ -5,10 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 # Following are added for project
+gem 'cancancan'
 gem 'devise'
 gem 'faker'
 gem 'bootstrap-sass'
-# autoprefixer recommended at launchschool.com/blog/integrating-rails-and-bootstrap-part-1
+# for integrating-rails-and-bootstrap-
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
